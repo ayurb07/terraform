@@ -1,6 +1,6 @@
 provider "azurerm" {
 }
 resource "azurerm_resource_group" "rg" {
-        name = "testResourceGroup"
-        location = "westus"
+        name = "DBA_Terraform_POC"
+        location = "northeurope"
 }
